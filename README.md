@@ -51,3 +51,6 @@ parser = new Parser(ref tokenList);
 Program syntaxTree = parser.Parse();
 interpreter.Interpret(syntaxTree);
 ```
+
+## 참조
+- [컴파일러 만들기를 읽고](https://velog.io/@ghkdgus29/%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC-%EB%A7%8C%EB%93%A4%EA%B8%B0%EB%A5%BC-%EC%9D%BD%EA%B3%A0)
