@@ -27,6 +27,10 @@
 
             Program syntaxTree = parser.Parse();
             IngameManagerV2.Interpreter.Interpret(syntaxTree);
+
+            Console.WriteLine("\n==========출력 끝==========\n");
+            Console.WriteLine("아무 키나 눌러 종료...");
+            Console.ReadLine();
         }
     }
 }
