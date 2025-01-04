@@ -1,0 +1,9 @@
+define value = 13 # 전역 변수
+
+label start:
+    print "Hello, world!"
+    
+    # 변수 할당
+    define add = value + 4
+    print "13 + 4 = "
+    print add
