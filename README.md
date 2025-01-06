@@ -51,5 +51,10 @@ Program syntaxTree = parser.Parse();
 interpreter.Interpret(syntaxTree);
 ```
 
+## 소스코드 개요
+- [Scanner.cs](https://github.com/Luigi38/Han/blob/main/Scanner.cs): **어휘 분석**을 통한 토큰 분리
+- [Parser.cs](https://github.com/Luigi38/Han/blob/main/Parser.cs): **구문 분석**을 통한 구조 분석 및 변환
+- [Interpreter.cs](https://github.com/Luigi38/Han/blob/main/Interpreter.cs): **인터프리터**를 구현하기 위해 명령 해석 및 실행
+
 ## 참조
 - [컴파일러 만들기를 읽고](https://velog.io/@ghkdgus29/%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC-%EB%A7%8C%EB%93%A4%EA%B8%B0%EB%A5%BC-%EC%9D%BD%EA%B3%A0)
