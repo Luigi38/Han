@@ -39,7 +39,7 @@ Interpreter interpreter = new Interpreter();
 
 if (!File.Exists(path))
 {
-    Console.WriteLine("오류! 파일이 존재하지 않습니다.")
+    Console.WriteLine("오류! 파일이 존재하지 않습니다.");
     return;
 }
 
